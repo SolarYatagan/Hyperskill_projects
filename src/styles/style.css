@@ -1,0 +1,83 @@
+body{
+    background-color: coral;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+.white-keys kbd{
+    border: 5px solid gray;
+    font-size: 42px;
+    font-family: Consolas,sans-serif,bold;
+    background-color: white;
+    display: flex;
+    padding-bottom: 70px;
+    width: 140px;
+    height: 350px;
+    float: left;
+    align-items: end;
+    justify-content: center;
+
+}
+
+.black-keys kbd{
+    font-family: Consolas,sans-serif,bold;
+    font-size: 32px;
+    background-color: black;
+    color: white;
+    display: flex;
+    width: 70px;
+    height: 245px;
+    align-items: end;
+    padding-bottom: 25px;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 500px;
+}
+#_W{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 115px;
+}
+#_E{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: absolute;
+     top: 0;
+     left: 265px;
+ }
+#_T{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: 0;
+      left: 565px;
+  }
+#_Y{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 715px;
+}
+#_U{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 865px;
+}
