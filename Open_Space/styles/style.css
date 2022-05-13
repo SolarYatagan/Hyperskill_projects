@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+    background-color: black;
+}
+.space {
+    background: url("../images/space.png");
+    width: 80vw;
+    height: 100vh;
+    border-radius: 10px;
+    position: relative;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.planet-area {
+    position: absolute;
+    bottom: 0;
+    width: 50%;
+    height:80%
+}
+
+.planet {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 500px;
+}
+
+.rocket {
+    position: absolute;
+    transform: scale(30%) rotate(25deg);
+    top: 24%;
+    left: 9%;
+}
+
+
+.control-panel{
+    position: absolute;
+    width: 34%;
+    height: 64%;
+    top: 5%;
+    background-color: silver;
+    background-image: linear-gradient(335deg, #b00 23px, transparent 23px),
+    linear-gradient(155deg, #d00 23px, transparent 23px),
+    linear-gradient(335deg, #b00 23px, transparent 23px),
+    linear-gradient(155deg, #d00 23px, transparent 23px);
+    background-size: 58px 58px;
+    background-position: 0px 2px, 4px 35px, 29px 31px, 34px 6px;
+    border-radius: 20px;
+    left: 65%;
+}
+.control-panel__inner{
+    position: absolute;
+    width: 90%;
+    height: 85%;
+    top: 50px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(72,72,78,1) 100%, rgba(118,140,144,1) 100%);
+    left: 5%;
+    z-index: 10;
+}
+#password_field{
+    color: blue;
+    position: absolute;
+    width: 50%;
+    height: 5%;
+    border-radius: 10px;
+    left: 20px;
+    top: 10px;
+    border: 10px solid khaki;
+}
+#ok_btn{
+    font-family: Consolas, bold, serif;
+    font-size: 14px;
+    position: absolute;
+    width: 20%;
+    height: 8%;
+    border-radius: 10px;
+    right: 20px;
+    top: 10px;
+    background-color: khaki;
+}
+.check-buttons{
+    position: absolute;
+    display: flex;
+    top: 20%;
+    right: 50%;
+    transform: translateX(50%);
+}
+
+.chk{
+    margin: 0 20px 10px;
+    justify-content: center;
+    vertical-align:middle;
+    height: 50px;
+    width: 30px;
+}
+.levers {
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    bottom: 40%;
+}
+
+.levers input[type="range"] {
+    transform: rotate(-90deg);
+    width: 70px;
+}
+#launch{
+    font-size: 18px;
+    font-family: "Britannic Bold", serif;
+    position: absolute;
+    height: 100px;
+    width: 150px;
+    bottom: 10px;
+    border-radius: 50px;
+    text-align: center;
+    justify-content: center;
+    right: 50%;
+    transform: translateX(50%);
+    background-color: red;
+}
